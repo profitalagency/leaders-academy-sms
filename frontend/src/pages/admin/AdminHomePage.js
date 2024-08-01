@@ -49,7 +49,8 @@ const AdminHomePage = () => {
                         <StyledPaper>
                             <img src={Classes} alt="Classes" />
                             <Title>
-                                Total Classes
+                                {/* Total Classes */}
+                                Pending Admissions
                             </Title>
                             <Data start={0} end={numberOfClasses} duration={5} />
                         </StyledPaper>
@@ -58,7 +59,7 @@ const AdminHomePage = () => {
                         <StyledPaper>
                             <img src={Teachers} alt="Teachers" />
                             <Title>
-                                Total Teachers
+                                Pending Recipts
                             </Title>
                             <Data start={0} end={numberOfTeachers} duration={2.5} />
                         </StyledPaper>
